@@ -19,7 +19,7 @@ export default function FeaturesSection() {
           {/* Feature 1 */}
           <div className={`feature-card text-center p-6 bg-white shadow-lg rounded-lg transform ${animate ? 'animate__animated animate__fadeInUp animate__delay-1s' : ''}`}>
             <div className="mb-6">
-              <img src="/images/icons/task-icon.svg" alt="Task Management" className="mx-auto h-40 w-40 text-primary" />
+              <img src="/Images/icons/task-icon.svg" alt="Task Management" className="mx-auto h-40 w-40 text-primary" />
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-4">Task Management</h3>
             <p className="text-gray-600">
@@ -30,7 +30,7 @@ export default function FeaturesSection() {
           {/* Feature 2 */}
           <div className={`feature-card text-center p-6 bg-white shadow-lg rounded-lg transform ${animate ? 'animate__animated animate__fadeInUp animate__delay-1.5s' : ''}`}>
             <div className="mb-6">
-              <img src="/images/icons/collaboration-icon.svg" alt="Collaboration" className="mx-auto h-40 w-40 text-primary" />
+              <img src="/Images/icons/collaboration-icon.svg" alt="Collaboration" className="mx-auto h-40 w-40 text-primary" />
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-4">Collaboration</h3>
             <p className="text-gray-600">
@@ -41,7 +41,7 @@ export default function FeaturesSection() {
           {/* Feature 3 */}
           <div className={`feature-card text-center p-6 bg-white shadow-lg rounded-lg transform ${animate ? 'animate__animated animate__fadeInUp animate__delay-2s' : ''}`}>
             <div className="mb-6">
-              <img src="/images/icons/notification-icon.svg" alt="Notifications" className="mx-auto h-40 w-40 text-primary" />
+              <img src="/Images/icons/notification-icon.svg" alt="Notifications" className="mx-auto h-40 w-40 text-primary" />
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-4">Smart Notifications</h3>
             <p className="text-gray-600">
@@ -52,7 +52,7 @@ export default function FeaturesSection() {
           {/* Feature 4 */}
           <div className={`feature-card text-center p-6 bg-white shadow-lg rounded-lg transform ${animate ? 'animate__animated animate__fadeInUp animate__delay-2.5s' : ''}`}>
             <div className="mb-6">
-              <img src="/images/icons/analytics-icon.svg" alt="Analytics" className="mx-auto h-40 w-40 text-primary" />
+              <img src="/Images/icons/analytics-icon.svg" alt="Analytics" className="mx-auto h-40 w-40 text-primary" />
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-4">Powerful Analytics</h3>
             <p className="text-gray-600">
@@ -63,7 +63,7 @@ export default function FeaturesSection() {
           {/* Feature 5 */}
           <div className={`feature-card text-center p-6 bg-white shadow-lg rounded-lg transform ${animate ? 'animate__animated animate__fadeInUp animate__delay-3s' : ''}`}>
             <div className="mb-6">
-              <img src="/images/icons/integration-icon.svg" alt="Integration" className="mx-auto h-40 w-40 text-primary" />
+              <img src="/Images/icons/integration-icon.svg" alt="Integration" className="mx-auto h-40 w-40 text-primary" />
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-4">Seamless Integration</h3>
             <p className="text-gray-600">
@@ -74,7 +74,7 @@ export default function FeaturesSection() {
           {/* Feature 6 */}
           <div className={`feature-card text-center p-6 bg-white shadow-lg rounded-lg transform ${animate ? 'animate__animated animate__fadeInUp animate__delay-3.5s' : ''}`}>
             <div className="mb-6">
-              <img src="/images/icons/secure-icon.svg" alt="Security" className="mx-auto h-40 w-40 text-primary" />
+              <img src="/Images/icons/secure-icon.svg" alt="Security" className="mx-auto h-40 w-40 text-primary" />
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-4">Top-notch Security</h3>
             <p className="text-gray-600">

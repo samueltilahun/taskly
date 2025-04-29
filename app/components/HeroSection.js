@@ -43,7 +43,7 @@ export default function HeroSection() {
         {/* Image Section */}
         <div className="hidden w-110 md:block mt-10 md:mt-0 z-10">
           <img
-            src="/images/hero-image6.svg"
+            src="/Images/hero-image6.svg"
             alt="Task Management Illustration"
             className={`w-full max-w-md ${animate ? 'animate__animated animate__bounce' : ''}`}
             style={{ animationDuration: '1.5s' }}

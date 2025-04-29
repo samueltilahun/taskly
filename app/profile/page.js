@@ -20,7 +20,7 @@ export default function ProfilePage() {
             {/* Profile Picture */}
             <div className="relative w-40 h-40 mb-4">
               <Image 
-                // src="/images/default-avatar.png" 
+                // src="/Images/default-avatar.png" 
                 alt="Profile Picture" 
                 className="rounded-full object-cover"
                 fill
