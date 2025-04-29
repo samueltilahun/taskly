@@ -1,26 +1,86 @@
 @import "tailwindcss";
+@import "animate.css";
 
+/* Light Mode Variables */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --primary-color: #4CA99E;
+  --secondary-color: #1E3A8A;
+  --danger-color: #FF4C4C;
+  --danger-hover-color: #ff0000;
+  --accent-color: #F0A500;
+  --background-color: #F8FAFC;
+  --text-color: #1F2937;
+  --subtext-color: #6B7280;
+  --button-bg-color: #4CA99E;
+  --button-text-color: #FFFFFF;
+  --hero-bg-color: #1E3A8A;
+  --hero-text-color: #FFFFFF;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Dark Mode Overrides */
+.dark {
+  --background-color: #1F2937;
+  --text-color: #E5E7EB;
+  --hero-bg-color: #0F172A;
+  --hero-text-color: #E5E7EB;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* General Button Styling */
+.btn {
+  padding: 0.75rem 1.5rem;
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.btn:hover {
+  background-color: var(--primary-color);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(147, 197, 253, 0.5);
+}
+
+/* Button Variants */
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--button-text-color);
+}
+
+.dark .btn-primary {
+  background-color: var(--secondary-color);
+  color: var(--button-text-color);
+}
+
+.btn-danger {
+  background-color: var(--danger-color);
+  color: var(--button-text-color);
+}
+
+.btn-danger:hover {
+  background-color: var(--danger-hover-color);
+}
+
+.dark .btn-danger {
+  background-color: var(--danger-color);
+}
+
+/* Hero Section */
+.hero {
+  background-color: var(--hero-bg-color);
+  color: var(--hero-text-color);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.dark .hero {
+  background-color: var(--hero-bg-color);
+  color: var(--hero-text-color);
 }
